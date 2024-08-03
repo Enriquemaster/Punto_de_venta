@@ -1,0 +1,21 @@
+{
+  "name": "python",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss static/styles/tailwind.css -o static/styles/styles.css",
+    "watch:css": "npx tailwindcss -i static/styles/tailwind.css -o static/styles/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^8.4.40"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.7"
+  }
+}
